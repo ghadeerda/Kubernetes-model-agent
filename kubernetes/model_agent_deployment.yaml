@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: model-agent
-        image: <your_dockerhub_username>/model-agent:latest
+        image: ghadeerda/model-agent:latest
         ports:
         - containerPort: 5000
 ---

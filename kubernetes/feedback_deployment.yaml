@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: feedback-app
-        image: <your_dockerhub_username>/feedback-app:latest
+        image: ghadeerda/feedback-app:latest
         ports:
         - containerPort: 5000
 ---
